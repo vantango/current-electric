@@ -1,0 +1,130 @@
+html {
+    height:100% !important;
+    width:100% !important; 
+    margin:0px; padding:0px;
+    scroll-behavior: smooth;
+}
+
+body {
+    height:500% !important;
+    width:100% !important; 
+    margin:0px; 
+    padding:0px;}
+
+.page {
+    height:20% !important; 
+    width:100% !important;
+}
+    
+.navbar {
+    box-sizing: unset;
+}
+.navbar-item {
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+}
+
+.button {
+    border: none;
+}
+
+.hero-body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.pexels.com/photos/7937292/pexels-photo-7937292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0%;
+    height: 100vh;
+}
+
+.text-block {
+    position: absolute;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50vw;
+}
+
+.action {
+    font-family: 'Quattrocento', serif;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 25%;
+}
+
+.title {
+    text-align: center;
+    color: black;
+    font-size: 4vw;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 2px 5px white;
+}
+
+#mainLogo {
+    width: 35%;
+    height: 75%;
+}
+
+#navLogo {
+    width: 60px;
+    height: 70px;
+}
+
+.aboutUs {
+    background-size: cover;
+}
+
+#team {
+    width: 30%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-shape-divider-top-1621983381 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1621983381 svg {
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 103px;
+}
+
+.custom-shape-divider-top-1621983381 .shape-fill {
+    fill: #191817;
+}
+
+.custom-shape-divider-bottom-1621983455 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1621983455 svg {
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 103px;
+}
+
+.custom-shape-divider-bottom-1621983455 .shape-fill {
+    fill: #191817;
+}
+
+#page3{background-color:green;}
+
+#page5{background-color:blue;}
+
