@@ -95,7 +95,8 @@ h2 {
 }
 
 /* PAGE 4 STYLING */
-#reviewsTitle {
+#testimonialsTitle {
+  font-family: "Quattrocento", serif;
   font-size: xx-large;
 }
 
@@ -153,23 +154,3 @@ h2 {
 .custom-shape-divider-top-1621993808 .shape-fill {
   fill: #191817;
 }
-
-/* .custom-shape-divider-top-1621996069 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-top-1621996069 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 81px;
-}
-
-.custom-shape-divider-top-1621996069 .shape-fill {
-    fill: #FFFFFF;
-} */
