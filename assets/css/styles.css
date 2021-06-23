@@ -103,14 +103,13 @@ h2 {
 
 /* --------------------------------- PAGE 2 STYLING --------------------------------- */
 #aboutUs {
-  /* display: flex;
-    justify-content: center;
-    align-items: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 10vh;
   position: relative;
-  /* background-color: white; */
   background-size: cover;
-  width: 70vw;
+  /* width: 70vw; */
 }
 
 #aboutTitle {
