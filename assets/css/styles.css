@@ -1,5 +1,5 @@
 /* Equal size pages styling */
-html {
+/* html {
   height: 100% !important;
   width: 100% !important;
   margin: 0px;
@@ -17,6 +17,14 @@ body {
 .page {
   height: 20% !important;
   width: 100% !important;
+} */
+
+body {
+  overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 h2 {
@@ -28,11 +36,9 @@ h2 {
 
 /* --------------------------------- NAVBAR STYLING --------------------------------- */
 .navbar {
-  /* box-sizing: unset; */
   position: fixed;
   width: 100vw;
   opacity: 90%;
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
 }
 
 .navbar-item {
@@ -107,8 +113,10 @@ h2 {
   justify-content: center;
   align-items: center;
   margin-top: 10vh;
+  margin-bottom: 20vh;
   position: relative;
-  background-size: cover;
+  overflow: auto !important;
+  /* background-size: cover; */
   /* width: 70vw; */
 }
 
@@ -149,7 +157,19 @@ h2 {
 }
 
 #divider1 {
-  padding: 3%;
+  padding: 4%;
+}
+
+#services {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
+.services {
+  text-align: center;
 }
 
 /* --------------------------------- PAGE 4 STYLING --------------------------------- */
