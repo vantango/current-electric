@@ -57,7 +57,7 @@ h2 {
 
 #navLogo {
   /* width: 5%; */
-  max-height: 70px;
+  max-height: 60px;
 }
 
 .button {
@@ -102,7 +102,7 @@ h2 {
 }
 
 #mainLogo {
-  width: 35%;
+  width: 25%;
   height: auto;
   position: absolute;
 }
