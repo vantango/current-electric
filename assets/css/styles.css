@@ -1,5 +1,5 @@
 /* Equal size pages styling */
-/* html {
+html {
   height: 100% !important;
   width: 100% !important;
   margin: 0px;
@@ -17,7 +17,7 @@ body {
 .page {
   height: 20% !important;
   width: 100% !important;
-} */
+}
 
 body {
   overflow: hidden;
@@ -154,6 +154,28 @@ h2 {
 /* --------------------------------- PAGE 3 STYLING --------------------------------- */
 #page3 {
   background-color: rgb(136, 135, 131);
+  position: relative;
+}
+
+.custom-shape-divider-top-1627441417 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1627441417 svg {
+  position: relative;
+  display: block;
+  width: calc(114% + 1.3px);
+  height: 194px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1627441417 .shape-fill {
+  fill: #FFFFFF;
 }
 
 #divider1 {
@@ -184,4 +206,36 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* --------------------------------- PAGE 5 STYLING --------------------------------- */
+#page5 {
+  background-color: rgb(70, 69, 67);
+  height: 70vh;
+  width: 100vw;
+  position: relative;
+}
+
+#contactSection {
+  padding-top: 20vh;
+}
+
+.custom-shape-divider-top-1627440962 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1627440962 svg {
+  position: relative;
+  display: block;
+  width: calc(199% + 1.3px);
+  height: 262px;
+}
+
+.custom-shape-divider-top-1627440962 .shape-fill {
+  fill: #FFFFFF;
 }
