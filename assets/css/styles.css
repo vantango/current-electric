@@ -66,7 +66,10 @@ h2 {
 
 /* --------------------------------- PAGE 1 STYLING --------------------------------- */
 .hero-body {
-  background-image: linear-gradient(rgba(134, 133, 133, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(
+      rgba(134, 133, 133, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
     url(https://images.pexels.com/photos/7937292/pexels-photo-7937292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   background-position: center;
   background-repeat: no-repeat;
@@ -175,7 +178,7 @@ h2 {
 }
 
 .custom-shape-divider-top-1627441417 .shape-fill {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 #divider1 {
@@ -237,5 +240,5 @@ h2 {
 }
 
 .custom-shape-divider-top-1627440962 .shape-fill {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
